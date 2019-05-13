@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>File Upload</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <object data="header.html" class="header nav-wrapper">Your browser doesn't support Object</object>
+        <div class="container card">
+            <h1>File Upload</h1>
+            <form action="/upload" enctype="multipart/form-data" method='POST'>
+                <input type="file" name="avatar" required>
+                <button type='submit' class="btn">Upload</button>
+            </form>
+            <div class="files"></div>
+        </div>
+    </body>
+
+    <script src='js/home.js'></script>
+    
+</html>

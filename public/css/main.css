@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    max-height: 5vw;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+form{
+    padding: 2em;
+}
+
+img{
+    width: 50vw;
+    height: 40vh;
+}
+
+.img-cont{
+    margin: auto;
+}
+/* button, input{
+    background: rgba(29, 161, 238, 0.596);
+    padding: 1em;
+    box-shadow: none;
+} */
